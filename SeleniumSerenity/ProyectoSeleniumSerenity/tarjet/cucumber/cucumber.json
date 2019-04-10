@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "successful search in google",
+        "description": "",
+        "id": "google-search;successful-search-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3364800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Arthur am on the Google home page",
+            "match": {
+              "location": "BuscarEnGoogleStepDefinition.arthur_am_on_the_Google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1429800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "he does the search",
+            "match": {
+              "location": "BuscarEnGoogleStepDefinition.he_does_the_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1684700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "he validates the result success.",
+            "match": {
+              "location": "BuscarEnGoogleStepDefinition.he_validates_the_result_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "  I want to search a word in Google",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BusquedaGoogle.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

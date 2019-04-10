@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Buscar en Google con datos" skipped="0" tests="3" time="30.64" timestamp="2019-04-04 08:50:01"><testcase name="buscar en google"><failure message="La frase no corresponde a la busqueda - &#10;Expected: is &quot;dsdfsdgfghyjuhggd&quot;&#10;     but: was &quot;Sophos Solutions dos&quot;" type="java.lang.AssertionError">La frase no corresponde a la busqueda - 
+Expected: is "dsdfsdgfghyjuhggd"
+     but: was "Sophos Solutions dos"</failure><system-err>La frase no corresponde a la busqueda - 
+Expected: is "dsdfsdgfghyjuhggd"
+     but: was "Sophos Solutions dos"&#13;
+co.com.google.screenplayone.stepsdefinitions.busquedagooglescreenplaystepdefinitions.el_verifica_que_la_palabra_este_en_los_resultados(busquedagooglescreenplaystepdefinitions.java:64)&#13;
+✽.el verifica que la palabra "dsdfsdgfghyjuhggd" este en los resultados(src/test/resources/features/busquedagooglescrenplay.feature:12)&#13;
+</system-err></testcase></testsuite>

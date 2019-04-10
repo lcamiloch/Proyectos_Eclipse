@@ -1,0 +1,162 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "busqueda-en-google-con-datos;buscar-en-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11194976200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Arthur quiere buscar en google",
+            "match": {
+              "location": "BusquedaGoogleConDatos.arthurQuiereBuscarEnGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2916405900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"Nintendo\" compuesta \"switch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nintendo\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"switch\"",
+                  "offset": 41
+                }
+              ],
+              "location": "BusquedaGoogleConDatos.elBuscaLaPalabra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2562482000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica la palabra \"Nintendo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nintendo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "BusquedaGoogleConDatos.elVerificaLaPalabra(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "busqueda-en-google-con-datos;buscar-en-google;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5173560600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Arthur quiere buscar en google",
+            "match": {
+              "location": "BusquedaGoogleConDatos.arthurQuiereBuscarEnGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2580907900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"Futbol\" compuesta \"argentino\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Futbol\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"argentino\"",
+                  "offset": 39
+                }
+              ],
+              "location": "BusquedaGoogleConDatos.elBuscaLaPalabra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2538638600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica la palabra \"Futbol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Futbol\"",
+                  "offset": 23
+                }
+              ],
+              "location": "BusquedaGoogleConDatos.elVerificaLaPalabra(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda en Google con datos",
+    "description": "  I want to use this template for my feature file",
+    "id": "busqueda-en-google-con-datos",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/GoogleBusquedaConDatos.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
