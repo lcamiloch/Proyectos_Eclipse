@@ -1,5 +1,6 @@
 package co.com.mercadolibre.testing.questions;
 
+import co.com.mercadolibre.testing.tasks.VerifyFieldSend;
 import co.com.mercadolibre.testing.userinterfaces.MercadoLibreResultPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
@@ -21,6 +22,7 @@ public class TheProduct implements Question<String>{
 	@Step("{0} verifies the shipping field")
 	public String answeredBy(Actor actor) {
 		
+		actor.attemptsTo(VerifyFieldSend.delenvio());
 		
 		return MercadoLibreResultPage.FIELD_TO_COMPARATE.resolveFor(actor).getTextContent();
 		
