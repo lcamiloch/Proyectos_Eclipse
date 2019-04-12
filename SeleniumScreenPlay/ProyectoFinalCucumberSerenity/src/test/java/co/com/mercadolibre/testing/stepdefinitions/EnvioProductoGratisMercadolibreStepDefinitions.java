@@ -13,7 +13,6 @@ import co.com.mercadolibre.testing.questions.TheConnection;
 import co.com.mercadolibre.testing.questions.TheProduct;
 import co.com.mercadolibre.testing.tasks.Initialize;
 import co.com.mercadolibre.testing.tasks.SearchToProduct;
-import co.com.mercadolibre.testing.userinterfaces.MercadoLibreHomePage;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -23,8 +22,6 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 
 public class EnvioProductoGratisMercadolibreStepDefinitions {
-	
-	MercadoLibreHomePage homePage;
 	
 	@Managed(driver = "chrome")
     private WebDriver hisBrowser;
